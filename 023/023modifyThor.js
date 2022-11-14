@@ -33,3 +33,4 @@ alert("¿Puedes encontrar la letra a? Demuéstralo: "+ thor.indexOf("a"))//¿Pue
 
 //Pon la mitad de la cadena en minúsculas (Sin usar las posiciones de 0 a 11)
 
+
