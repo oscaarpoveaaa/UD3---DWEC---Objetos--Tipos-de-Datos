@@ -9,6 +9,7 @@ alert( randomInteger(1, 5) ); // 5 */
 "use strict"
 
 function randomInteger(min, max){
+  //Uso el math floor para que el numero sea entero y le pongo el rango sea de 1 o 5 incluyendolos 
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
