@@ -18,4 +18,4 @@ alert(camelize("background_color") == "backgroundColor");
 alert(camelize("list_style_image") == "listStyleImage");
 alert(camelize("_webkit_transition") == "WebkitTransition");
 
-//Comentar
+//Lo que hago es sustituir las _ por el caracter siguiente en mayúscula

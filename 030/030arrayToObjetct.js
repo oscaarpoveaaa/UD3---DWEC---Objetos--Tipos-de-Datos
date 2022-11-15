@@ -1,15 +1,14 @@
-/* jecuta sobre el siguiente array las operaciones 
-pedidas:
- var grupos = [
-    {nombre: "ACDC", genero: "Rock"},
-    {nombre: "Cold Play", genero: "Pop"},
-    {nombre: "NCT Dream", genero: "K-Pop"},
-    {nombre: "Metallica", genero: "Heavy Metal"}
-];
- */
+/* Crea un objeto a partir de un array Supongamos que 
+recibimos un array de personajes con la forma {id:..., nombre:..., pelicula:... }.
+Crea una función groupById(arr) que cree un objeto, con id como clave (key) y los 
+elementos del array como valores. Dicha función es realmente útil cuando trabajamos 
+con información del servidor.
+Para esta actividad asumimos que cada id es único. No existen dos elementos del array 
+con el mismo id.
+Usa el método de array .reduce en la solución. */
 
 "use strict";
 
-
-
-
+function groupById(arr){
+    
+}
