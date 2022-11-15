@@ -9,17 +9,17 @@ function makeUser() {
 let user = makeUser();
 alert( user.ref.name ); // ¿Cuál es el resultado? */
 
-"use strict"
+"use strict";
 function makeUser() {
   return {
     name: "John",
-    ref: this
+    ref: this,
   };
 }
 let user = makeUser();
 
 //Da undefined ya que al estar usando el "use strict", el valor de this se mantiene en lo que está establecida al entrar en el contexto de ejecución. Si no está definido, permanece undefined.
-alert( user.ref);
+alert(user.ref);
 
 //
-alert( user.ref.name);
+alert(user.ref.name);

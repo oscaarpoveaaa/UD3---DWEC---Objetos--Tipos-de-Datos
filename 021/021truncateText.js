@@ -6,7 +6,7 @@ truncate("Lo que me gustaría contar sobre este tema es:", 20) = "Lo que me gust
 c..."
 truncate("Hola a todos!", 20) = "Hola a todos!" */
 
-"use strict"
+"use strict";
 
 alert(truncate("Lo que me gustaría contar sobre este tema es:", 20));
 

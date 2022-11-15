@@ -2,9 +2,9 @@
 alert( 9999999999999999 );
 ¿Qué está pasando?¿Por qué? */
 
-"use strict"
+"use strict";
 
-alert( 9999999999999999 );
+alert(9999999999999999);
 
 /* Todos los números en JavaScript se almacenan en formato de 64 bits IEEE-754 , también conocido como "doble precisión", 
 por lo que hay exactamente 64 bits para almacenar un número: 52 de ellos se utilizan para almacenar los dígitos, 
@@ -14,8 +14,3 @@ JavaScript no desencadena un error en tales eventos. Hace todo lo posible para a
 desafortunadamente, este formato no es lo suficientemente grande.
 
 */
-
-
-
-
-

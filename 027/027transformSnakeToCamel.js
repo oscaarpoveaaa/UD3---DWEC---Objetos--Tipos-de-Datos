@@ -8,14 +8,14 @@ camelize("_webkit_transition") == 'WebkitTransition';
 P.D. Pista: usa split para dividir el string en un array, transfórmalo y vuelve a unirlo 
 (join).*/
 
-"use strict"
+"use strict";
 
-function camelize(str){
-    return str.replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
+function camelize(str) {
+  return str.replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
 }
 
-alert(camelize("background_color") == 'backgroundColor');
-alert(camelize("list_style_image") == 'listStyleImage');
-alert(camelize("_webkit_transition") == 'WebkitTransition');
+alert(camelize("background_color") == "backgroundColor");
+alert(camelize("list_style_image") == "listStyleImage");
+alert(camelize("_webkit_transition") == "WebkitTransition");
 
 //Comentar

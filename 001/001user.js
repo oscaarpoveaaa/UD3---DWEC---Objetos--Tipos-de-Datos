@@ -5,11 +5,11 @@ Agrega la propiedad surname con el valor Sam Sagaz.
 Cambia el valor de name a Peter Pan.
 Quita la propiedad name del objeto. */
 
-"use strict"
+"use strict";
 //Aqui creamos el objeto con corchetes
 let user = {
-    name: "John Snow",
-    surname: "Sam Sagaz"
+  name: "John Snow",
+  surname: "Sam Sagaz",
 };
 
 //Hacemos un alert para comprobar que el nombre es "John Snow"

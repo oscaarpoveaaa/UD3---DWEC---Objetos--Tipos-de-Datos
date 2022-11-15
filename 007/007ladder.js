@@ -24,22 +24,23 @@ hacer los llamados encadenables como esto:
 ladder.up().up().down().showStep().down().showStep(); // shows 1 then 0
 Tal enfoque es ampliamente usado entre las librerías JavaScript. */
 
-"use strict"
+"use strict";
 
 let ladder = {
   step: 0,
   up() {
     this.step++;
-    return ladder
+    return ladder;
   },
   down() {
     this.step--;
-    return ladder
+    return ladder;
   },
-  showStep: function() { // muestra el peldaño actual
-    alert( this.step );
-    return ladder
-  }
+  showStep: function () {
+    // muestra el peldaño actual
+    alert(this.step);
+    return ladder;
+  },
 };
 
 /* ladder.up();

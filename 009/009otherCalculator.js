@@ -14,26 +14,23 @@ alert( "Mul=" + calculator.mul() ); */
 
 let calculator = new Calculator();
 calculator.read();
-alert( "Sum=" + calculator.sum() );
-alert( "Mul=" + calculator.mul() );
+alert("Sum=" + calculator.sum());
+alert("Mul=" + calculator.mul());
 
 function Calculator() {
-  a : undefined;
-  b : undefined;
+  a: undefined;
+  b: undefined;
 
-  this.read = function(){
-    this.a =+ prompt("Introduce el 1º numero");
-    this.b =+ prompt("Introduce el 2º numero");
-  }
+  this.read = function () {
+    this.a = +prompt("Introduce el 1º numero");
+    this.b = +prompt("Introduce el 2º numero");
+  };
 
   this.sum = function () {
     return "La suma es " + (this.a + this.b);
   };
 
   this.mul = function () {
-    return "La multiplicación es " + (this.a * this.b)
+    return "La multiplicación es " + this.a * this.b;
   };
 }
-
-
-

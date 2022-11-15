@@ -5,19 +5,14 @@ En el ejemplo similar que sigue, ¿por qué 6.35 es redondeado a 6.3, y no a 6.4
 alert( 6.35.toFixed(1) ); // 6.3
 ¿Cómo redondear 6.35 de manera correcta? */
 
-"use strict"
+"use strict";
 
-alert( 1.35.toFixed(1) ); // 1.4
-alert( 6.35.toFixed(1) ); // 6.3
+alert((1.35).toFixed(1)); // 1.4
+alert((6.35).toFixed(1)); // 6.3
 
 /* No es redondeado ya que internamente, la fracción decimal 6.35 resulta en binario 
 sin fin. Como siempre en estos casos, es almacenado con pérdida de precisión.*/
 
-alert( (6.35 * 10).toFixed(20) ); // 63.50000000000000000000
+alert((6.35 * 10).toFixed(20)); // 63.50000000000000000000
 
 //Esta sería la forma correcta de redondearlo
-
-
-
-
-

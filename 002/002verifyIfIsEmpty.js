@@ -5,22 +5,22 @@ alert( isEmpty(schedule) ); // true
 schedule["8:30"] = "Hora de levantarse";
 alert( isEmpty(schedule) ); // false */
 
-"use strict"
+"use strict";
 
 let schedule = {};
 
-alert( isEmpty(schedule) ); // true
+alert(isEmpty(schedule)); // true
 schedule["8:30"] = "Hora de levantarse";
-alert( isEmpty(schedule) ); // false
+alert(isEmpty(schedule)); // false
 
-function isEmpty(obj){
-    //Creamos el key con el valor "8:30" para que con el operador in compruebe si hay algo a esa hora 
-    let key = "8:30";
-    if( key in obj) {
-        //Si hay algo a esa hora no estaria vacio, por lo que devolveria false
-        return false;
-      }else {
-        //En cambio si esta vacio devuelve true
-        return true;
-    }
-    }
+function isEmpty(obj) {
+  //Creamos el key con el valor "8:30" para que con el operador in compruebe si hay algo a esa hora
+  let key = "8:30";
+  if (key in obj) {
+    //Si hay algo a esa hora no estaria vacio, por lo que devolveria false
+    return false;
+  } else {
+    //En cambio si esta vacio devuelve true
+    return true;
+  }
+}

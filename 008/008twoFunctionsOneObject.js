@@ -17,8 +17,11 @@ Entonces pueden, por ejemplo, devolver el mismo objeto definido externamente obj
 
 let obj = {};
 
-function A() { return obj; }
-function B() { return obj; }
+function A() {
+  return obj;
+}
+function B() {
+  return obj;
+}
 
-alert( new A() == new B() ); // true
-
+alert(new A() == new B()); // true
